@@ -1,1 +1,8 @@
+{
+  "name": "Alex Morgan",
+  "age": 29,
+  "gender": "Male",
+  "preferred_sleep_hours": 8,
+  "goals": ["Improve deep sleep", "Wake up refreshed", "Reduce stress before bed"]
+}
 
