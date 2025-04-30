@@ -1,5 +1,6 @@
 import json
 import os
+from pprint import pprint
 
 DATA_DIR = os.path.join(os.path.dirname(__file__), '..', 'data')
 
@@ -19,7 +20,7 @@ def load_all_collections():
         "user_profile": load_json("user_profile.json"),
         "location_data": load_json("location_data.json"),
         "wellness_notes": load_json("wellness_notes.json"),
-        "mood_and_stress": load_json("mood_and_stress.json")
+        "mental_stress_tracker": load_json("mental_stress_tracker.json")
     }
 
 
@@ -27,6 +28,6 @@ def load_all_collections():
 if __name__ == "__main__":
     data = load_all_collections()
     for key, value in data.items():
-        print(f"\n{key.upper()}:")
-        print(value[:2] if isinstance(value, list) else value)
+     print(f"\n{key.upper()}:")
+     pprint(value)
 
