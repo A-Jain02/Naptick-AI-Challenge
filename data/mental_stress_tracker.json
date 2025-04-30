@@ -1,108 +1,108 @@
 [
   {
     "date": "2025-03-01",
-    "mood": "irritable",
-    "stress_level": 5
+    "mood": "anxious",
+    "stress_level": 1
   },
   {
     "date": "2025-03-02",
-    "mood": "happy",
-    "stress_level": 3
+    "mood": "calm",
+    "stress_level": 4
   },
   {
     "date": "2025-03-03",
     "mood": "stressed",
-    "stress_level": 10
+    "stress_level": 7
   },
   {
     "date": "2025-03-04",
-    "mood": "neutral",
-    "stress_level": 5
+    "mood": "happy",
+    "stress_level": 10
   },
   {
     "date": "2025-03-05",
     "mood": "neutral",
-    "stress_level": 1
+    "stress_level": 3
   },
   {
     "date": "2025-03-06",
-    "mood": "happy",
-    "stress_level": 5
-  },
-  {
-    "date": "2025-03-07",
-    "mood": "calm",
+    "mood": "tired",
     "stress_level": 6
   },
   {
-    "date": "2025-03-08",
-    "mood": "calm",
-    "stress_level": 7
-  },
-  {
-    "date": "2025-03-09",
-    "mood": "anxious",
-    "stress_level": 9
-  },
-  {
-    "date": "2025-03-10",
-    "mood": "calm",
-    "stress_level": 9
-  },
-  {
-    "date": "2025-03-11",
+    "date": "2025-03-07",
     "mood": "energized",
-    "stress_level": 4
+    "stress_level": 9
   },
   {
-    "date": "2025-03-12",
-    "mood": "tired",
+    "date": "2025-03-08",
+    "mood": "irritable",
     "stress_level": 2
   },
   {
-    "date": "2025-03-13",
+    "date": "2025-03-09",
+    "mood": "focused",
+    "stress_level": 5
+  },
+  {
+    "date": "2025-03-10",
+    "mood": "peaceful",
+    "stress_level": 8
+  },
+  {
+    "date": "2025-03-11",
+    "mood": "anxious",
+    "stress_level": 1
+  },
+  {
+    "date": "2025-03-12",
     "mood": "calm",
-    "stress_level": 9
+    "stress_level": 4
+  },
+  {
+    "date": "2025-03-13",
+    "mood": "stressed",
+    "stress_level": 7
   },
   {
     "date": "2025-03-14",
-    "mood": "neutral",
-    "stress_level": 5
+    "mood": "happy",
+    "stress_level": 10
   },
   {
     "date": "2025-03-15",
-    "mood": "irritable",
-    "stress_level": 4
+    "mood": "neutral",
+    "stress_level": 3
   },
   {
     "date": "2025-03-16",
-    "mood": "calm",
-    "stress_level": 3
+    "mood": "tired",
+    "stress_level": 6
   },
   {
     "date": "2025-03-17",
-    "mood": "happy",
-    "stress_level": 5
+    "mood": "energized",
+    "stress_level": 9
   },
   {
     "date": "2025-03-18",
-    "mood": "calm",
-    "stress_level": 9
+    "mood": "irritable",
+    "stress_level": 2
   },
   {
     "date": "2025-03-19",
-    "mood": "tired",
-    "stress_level": 4
+    "mood": "focused",
+    "stress_level": 5
   },
   {
     "date": "2025-03-20",
-    "mood": "tired",
-    "stress_level": 3
+    "mood": "peaceful",
+    "stress_level": 8
   },
   {
     "date": "2025-03-21",
-    "mood": "happy",
-    "stress_level": 9
+    "mood": "anxious",
+    "stress_level": 1
   },
   {
     "date": "2025-03-22",
@@ -111,142 +111,142 @@
   },
   {
     "date": "2025-03-23",
-    "mood": "anxious",
-    "stress_level": 8
-  },
-  {
-    "date": "2025-03-24",
-    "mood": "calm",
+    "mood": "stressed",
     "stress_level": 7
   },
   {
-    "date": "2025-03-25",
+    "date": "2025-03-24",
     "mood": "happy",
-    "stress_level": 5
+    "stress_level": 10
+  },
+  {
+    "date": "2025-03-25",
+    "mood": "neutral",
+    "stress_level": 3
   },
   {
     "date": "2025-03-26",
-    "mood": "energized",
-    "stress_level": 4
+    "mood": "tired",
+    "stress_level": 6
   },
   {
     "date": "2025-03-27",
     "mood": "energized",
-    "stress_level": 3
+    "stress_level": 9
   },
   {
     "date": "2025-03-28",
-    "mood": "calm",
-    "stress_level": 7
+    "mood": "irritable",
+    "stress_level": 2
   },
   {
     "date": "2025-03-29",
-    "mood": "neutral",
-    "stress_level": 7
+    "mood": "focused",
+    "stress_level": 5
   },
   {
     "date": "2025-03-30",
-    "mood": "stressed",
-    "stress_level": 3
+    "mood": "peaceful",
+    "stress_level": 8
   },
   {
     "date": "2025-03-31",
-    "mood": "energized",
-    "stress_level": 10
+    "mood": "anxious",
+    "stress_level": 1
   },
   {
     "date": "2025-04-01",
-    "mood": "neutral",
-    "stress_level": 5
+    "mood": "calm",
+    "stress_level": 4
   },
   {
     "date": "2025-04-02",
-    "mood": "happy",
-    "stress_level": 6
-  },
-  {
-    "date": "2025-04-03",
-    "mood": "neutral",
+    "mood": "stressed",
     "stress_level": 7
   },
   {
-    "date": "2025-04-04",
-    "mood": "stressed",
+    "date": "2025-04-03",
+    "mood": "happy",
     "stress_level": 10
   },
   {
-    "date": "2025-04-05",
+    "date": "2025-04-04",
     "mood": "neutral",
-    "stress_level": 5
+    "stress_level": 3
+  },
+  {
+    "date": "2025-04-05",
+    "mood": "tired",
+    "stress_level": 6
   },
   {
     "date": "2025-04-06",
-    "mood": "stressed",
+    "mood": "energized",
     "stress_level": 9
   },
   {
     "date": "2025-04-07",
     "mood": "irritable",
-    "stress_level": 6
-  },
-  {
-    "date": "2025-04-08",
-    "mood": "stressed",
     "stress_level": 2
   },
   {
+    "date": "2025-04-08",
+    "mood": "focused",
+    "stress_level": 5
+  },
+  {
     "date": "2025-04-09",
+    "mood": "peaceful",
+    "stress_level": 8
+  },
+  {
+    "date": "2025-04-10",
+    "mood": "anxious",
+    "stress_level": 1
+  },
+  {
+    "date": "2025-04-11",
+    "mood": "calm",
+    "stress_level": 4
+  },
+  {
+    "date": "2025-04-12",
+    "mood": "stressed",
+    "stress_level": 7
+  },
+  {
+    "date": "2025-04-13",
+    "mood": "happy",
+    "stress_level": 10
+  },
+  {
+    "date": "2025-04-14",
     "mood": "neutral",
     "stress_level": 3
   },
   {
-    "date": "2025-04-10",
+    "date": "2025-04-15",
     "mood": "tired",
-    "stress_level": 4
-  },
-  {
-    "date": "2025-04-11",
-    "mood": "anxious",
-    "stress_level": 1
-  },
-  {
-    "date": "2025-04-12",
-    "mood": "anxious",
-    "stress_level": 2
-  },
-  {
-    "date": "2025-04-13",
-    "mood": "energized",
-    "stress_level": 8
-  },
-  {
-    "date": "2025-04-14",
-    "mood": "anxious",
     "stress_level": 6
   },
   {
-    "date": "2025-04-15",
-    "mood": "neutral",
-    "stress_level": 7
-  },
-  {
     "date": "2025-04-16",
-    "mood": "stressed",
-    "stress_level": 1
+    "mood": "energized",
+    "stress_level": 9
   },
   {
     "date": "2025-04-17",
-    "mood": "stressed",
-    "stress_level": 5
+    "mood": "irritable",
+    "stress_level": 2
   },
   {
     "date": "2025-04-18",
-    "mood": "happy",
-    "stress_level": 8
+    "mood": "focused",
+    "stress_level": 5
   },
   {
     "date": "2025-04-19",
-    "mood": "irritable",
-    "stress_level": 1
+    "mood": "peaceful",
+    "stress_level": 8
   }
 ]
