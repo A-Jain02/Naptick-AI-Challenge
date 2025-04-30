@@ -1,1 +1,13 @@
+[
+  {"date": "2025-04-20", "sleep_duration": 6.1, "heart_rate_avg": 72, "steps": 8000},
+  {"date": "2025-04-21", "sleep_duration": 7.3, "heart_rate_avg": 65, "steps": 9200},
+  {"date": "2025-04-22", "sleep_duration": 6.8, "heart_rate_avg": 70, "steps": 7000},
+  {"date": "2025-04-23", "sleep_duration": 5.9, "heart_rate_avg": 76, "steps": 6500},
+  {"date": "2025-04-24", "sleep_duration": 7.9, "heart_rate_avg": 63, "steps": 10000},
+  {"date": "2025-04-25", "sleep_duration": 8.2, "heart_rate_avg": 60, "steps": 8800},
+  {"date": "2025-04-26", "sleep_duration": 7.0, "heart_rate_avg": 68, "steps": 9400},
+  {"date": "2025-04-27", "sleep_duration": 6.4, "heart_rate_avg": 71, "steps": 7500},
+  {"date": "2025-04-28", "sleep_duration": 6.9, "heart_rate_avg": 67, "steps": 8600},
+  {"date": "2025-04-29", "sleep_duration": 7.5, "heart_rate_avg": 62, "steps": 9900}
+]
 
