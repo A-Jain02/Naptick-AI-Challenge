@@ -1,1 +1,13 @@
+[
+  { "date": "2025-04-20", "mood": "anxious", "stress_level": 8 },
+  { "date": "2025-04-21", "mood": "calm", "stress_level": 4 },
+  { "date": "2025-04-22", "mood": "low", "stress_level": 6 },
+  { "date": "2025-04-23", "mood": "uncomfortable", "stress_level": 7 },
+  { "date": "2025-04-24", "mood": "relaxed", "stress_level": 3 },
+  { "date": "2025-04-25", "mood": "refreshed", "stress_level": 2 },
+  { "date": "2025-04-26", "mood": "stressed", "stress_level": 7 },
+  { "date": "2025-04-27", "mood": "balanced", "stress_level": 3 },
+  { "date": "2025-04-28", "mood": "energized", "stress_level": 2 },
+  { "date": "2025-04-29", "mood": "tired", "stress_level": 5 }
+]
 
