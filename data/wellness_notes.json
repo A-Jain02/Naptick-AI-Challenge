@@ -1,13 +1,202 @@
 [
-  {"date": "2025-04-20", "note": "Felt anxious all day, had 3 coffees. Trouble sleeping."},
-  {"date": "2025-04-21", "note": "Light stretching helped. Slept better."},
-  {"date": "2025-04-22", "note": "Headache before bed. Took melatonin."},
-  {"date": "2025-04-23", "note": "Overate dinner, felt heavy before bed."},
-  {"date": "2025-04-24", "note": "Tried ambient sounds. Slept well."},
-  {"date": "2025-04-25", "note": "Great sleep. Meditation helped a lot."},
-  {"date": "2025-04-26", "note": "Had work stress, interrupted sleep."},
-  {"date": "2025-04-27", "note": "No caffeine today. Slept smoothly."},
-  {"date": "2025-04-28", "note": "Exercised in the morning. Slept deeply."},
-  {"date": "2025-04-29", "note": "Busy day. Took magnesium supplement."}
+  {
+    "date": "2025-03-01",
+    "note": "Felt anxious all day."
+  },
+  {
+    "date": "2025-03-02",
+    "note": "Had a stressful meeting."
+  },
+  {
+    "date": "2025-03-03",
+    "note": "Felt well-rested."
+  },
+  {
+    "date": "2025-03-04",
+    "note": "Meditated for 10 minutes."
+  },
+  {
+    "date": "2025-03-05",
+    "note": "Ate dinner late."
+  },
+  {
+    "date": "2025-03-06",
+    "note": "Meditated for 10 minutes."
+  },
+  {
+    "date": "2025-03-07",
+    "note": "Meditated for 10 minutes."
+  },
+  {
+    "date": "2025-03-08",
+    "note": "Ate dinner late."
+  },
+  {
+    "date": "2025-03-09",
+    "note": "Stayed off phone before bed."
+  },
+  {
+    "date": "2025-03-10",
+    "note": "Took melatonin before bed."
+  },
+  {
+    "date": "2025-03-11",
+    "note": "Did breathing exercises."
+  },
+  {
+    "date": "2025-03-12",
+    "note": "Had a stressful meeting."
+  },
+  {
+    "date": "2025-03-13",
+    "note": "Stayed off phone before bed."
+  },
+  {
+    "date": "2025-03-14",
+    "note": "Drank chamomile tea."
+  },
+  {
+    "date": "2025-03-15",
+    "note": "No caffeine today."
+  },
+  {
+    "date": "2025-03-16",
+    "note": "Meditated for 10 minutes."
+  },
+  {
+    "date": "2025-03-17",
+    "note": "Felt anxious all day."
+  },
+  {
+    "date": "2025-03-18",
+    "note": "Worked late on laptop."
+  },
+  {
+    "date": "2025-03-19",
+    "note": "Felt well-rested."
+  },
+  {
+    "date": "2025-03-20",
+    "note": "Had a good workout."
+  },
+  {
+    "date": "2025-03-21",
+    "note": "Did breathing exercises."
+  },
+  {
+    "date": "2025-03-22",
+    "note": "Had a stressful meeting."
+  },
+  {
+    "date": "2025-03-23",
+    "note": "Woke up multiple times."
+  },
+  {
+    "date": "2025-03-24",
+    "note": "Stayed off phone before bed."
+  },
+  {
+    "date": "2025-03-25",
+    "note": "Woke up multiple times."
+  },
+  {
+    "date": "2025-03-26",
+    "note": "Woke up multiple times."
+  },
+  {
+    "date": "2025-03-27",
+    "note": "Felt anxious all day."
+  },
+  {
+    "date": "2025-03-28",
+    "note": "Felt well-rested."
+  },
+  {
+    "date": "2025-03-29",
+    "note": "Drank chamomile tea."
+  },
+  {
+    "date": "2025-03-30",
+    "note": "Drank chamomile tea."
+  },
+  {
+    "date": "2025-03-31",
+    "note": "No caffeine today."
+  },
+  {
+    "date": "2025-04-01",
+    "note": "Walked 30 minutes after dinner."
+  },
+  {
+    "date": "2025-04-02",
+    "note": "Had a stressful meeting."
+  },
+  {
+    "date": "2025-04-03",
+    "note": "No caffeine today."
+  },
+  {
+    "date": "2025-04-04",
+    "note": "Drank chamomile tea."
+  },
+  {
+    "date": "2025-04-05",
+    "note": "Stayed off phone before bed."
+  },
+  {
+    "date": "2025-04-06",
+    "note": "No caffeine today."
+  },
+  {
+    "date": "2025-04-07",
+    "note": "Worked late on laptop."
+  },
+  {
+    "date": "2025-04-08",
+    "note": "Meditated for 10 minutes."
+  },
+  {
+    "date": "2025-04-09",
+    "note": "Drank chamomile tea."
+  },
+  {
+    "date": "2025-04-10",
+    "note": "Worked late on laptop."
+  },
+  {
+    "date": "2025-04-11",
+    "note": "Felt anxious all day."
+  },
+  {
+    "date": "2025-04-12",
+    "note": "Woke up multiple times."
+  },
+  {
+    "date": "2025-04-13",
+    "note": "Slept deeply."
+  },
+  {
+    "date": "2025-04-14",
+    "note": "Meditated for 10 minutes."
+  },
+  {
+    "date": "2025-04-15",
+    "note": "Felt well-rested."
+  },
+  {
+    "date": "2025-04-16",
+    "note": "Slept deeply."
+  },
+  {
+    "date": "2025-04-17",
+    "note": "Had a stressful meeting."
+  },
+  {
+    "date": "2025-04-18",
+    "note": "Woke up multiple times."
+  },
+  {
+    "date": "2025-04-19",
+    "note": "Ate dinner late."
+  }
 ]
-

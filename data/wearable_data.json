@@ -1,13 +1,302 @@
 [
-  {"date": "2025-04-20", "sleep_duration": 6.1, "heart_rate_avg": 72, "steps": 8000},
-  {"date": "2025-04-21", "sleep_duration": 7.3, "heart_rate_avg": 65, "steps": 9200},
-  {"date": "2025-04-22", "sleep_duration": 6.8, "heart_rate_avg": 70, "steps": 7000},
-  {"date": "2025-04-23", "sleep_duration": 5.9, "heart_rate_avg": 76, "steps": 6500},
-  {"date": "2025-04-24", "sleep_duration": 7.9, "heart_rate_avg": 63, "steps": 10000},
-  {"date": "2025-04-25", "sleep_duration": 8.2, "heart_rate_avg": 60, "steps": 8800},
-  {"date": "2025-04-26", "sleep_duration": 7.0, "heart_rate_avg": 68, "steps": 9400},
-  {"date": "2025-04-27", "sleep_duration": 6.4, "heart_rate_avg": 71, "steps": 7500},
-  {"date": "2025-04-28", "sleep_duration": 6.9, "heart_rate_avg": 67, "steps": 8600},
-  {"date": "2025-04-29", "sleep_duration": 7.5, "heart_rate_avg": 62, "steps": 9900}
+  {
+    "date": "2025-03-01",
+    "sleep_duration": 8.39,
+    "heart_rate_avg": 63,
+    "steps": 11621
+  },
+  {
+    "date": "2025-03-02",
+    "sleep_duration": 7.5,
+    "heart_rate_avg": 66,
+    "steps": 9730
+  },
+  {
+    "date": "2025-03-03",
+    "sleep_duration": 8.56,
+    "heart_rate_avg": 58,
+    "steps": 7588
+  },
+  {
+    "date": "2025-03-04",
+    "sleep_duration": 6.06,
+    "heart_rate_avg": 70,
+    "steps": 9457
+  },
+  {
+    "date": "2025-03-05",
+    "sleep_duration": 7.52,
+    "heart_rate_avg": 65,
+    "steps": 7638
+  },
+  {
+    "date": "2025-03-06",
+    "sleep_duration": 5.88,
+    "heart_rate_avg": 61,
+    "steps": 11918
+  },
+  {
+    "date": "2025-03-07",
+    "sleep_duration": 6.87,
+    "heart_rate_avg": 70,
+    "steps": 7667
+  },
+  {
+    "date": "2025-03-08",
+    "sleep_duration": 7.57,
+    "heart_rate_avg": 69,
+    "steps": 11567
+  },
+  {
+    "date": "2025-03-09",
+    "sleep_duration": 8.22,
+    "heart_rate_avg": 74,
+    "steps": 11390
+  },
+  {
+    "date": "2025-03-10",
+    "sleep_duration": 8.46,
+    "heart_rate_avg": 64,
+    "steps": 11740
+  },
+  {
+    "date": "2025-03-11",
+    "sleep_duration": 8.69,
+    "heart_rate_avg": 74,
+    "steps": 7546
+  },
+  {
+    "date": "2025-03-12",
+    "sleep_duration": 5.62,
+    "heart_rate_avg": 58,
+    "steps": 6118
+  },
+  {
+    "date": "2025-03-13",
+    "sleep_duration": 6.71,
+    "heart_rate_avg": 69,
+    "steps": 6225
+  },
+  {
+    "date": "2025-03-14",
+    "sleep_duration": 8.53,
+    "heart_rate_avg": 70,
+    "steps": 9692
+  },
+  {
+    "date": "2025-03-15",
+    "sleep_duration": 8.52,
+    "heart_rate_avg": 69,
+    "steps": 8091
+  },
+  {
+    "date": "2025-03-16",
+    "sleep_duration": 8.95,
+    "heart_rate_avg": 65,
+    "steps": 8796
+  },
+  {
+    "date": "2025-03-17",
+    "sleep_duration": 8.21,
+    "heart_rate_avg": 70,
+    "steps": 7507
+  },
+  {
+    "date": "2025-03-18",
+    "sleep_duration": 5.75,
+    "heart_rate_avg": 75,
+    "steps": 11053
+  },
+  {
+    "date": "2025-03-19",
+    "sleep_duration": 8.17,
+    "heart_rate_avg": 59,
+    "steps": 9427
+  },
+  {
+    "date": "2025-03-20",
+    "sleep_duration": 8.58,
+    "heart_rate_avg": 66,
+    "steps": 8023
+  },
+  {
+    "date": "2025-03-21",
+    "sleep_duration": 6.35,
+    "heart_rate_avg": 65,
+    "steps": 6625
+  },
+  {
+    "date": "2025-03-22",
+    "sleep_duration": 6.09,
+    "heart_rate_avg": 58,
+    "steps": 10358
+  },
+  {
+    "date": "2025-03-23",
+    "sleep_duration": 5.65,
+    "heart_rate_avg": 61,
+    "steps": 6074
+  },
+  {
+    "date": "2025-03-24",
+    "sleep_duration": 7.12,
+    "heart_rate_avg": 58,
+    "steps": 9311
+  },
+  {
+    "date": "2025-03-25",
+    "sleep_duration": 8.12,
+    "heart_rate_avg": 65,
+    "steps": 8071
+  },
+  {
+    "date": "2025-03-26",
+    "sleep_duration": 7.61,
+    "heart_rate_avg": 69,
+    "steps": 5480
+  },
+  {
+    "date": "2025-03-27",
+    "sleep_duration": 6.77,
+    "heart_rate_avg": 58,
+    "steps": 8146
+  },
+  {
+    "date": "2025-03-28",
+    "sleep_duration": 7.97,
+    "heart_rate_avg": 72,
+    "steps": 11346
+  },
+  {
+    "date": "2025-03-29",
+    "sleep_duration": 8.83,
+    "heart_rate_avg": 66,
+    "steps": 6480
+  },
+  {
+    "date": "2025-03-30",
+    "sleep_duration": 8.41,
+    "heart_rate_avg": 58,
+    "steps": 9319
+  },
+  {
+    "date": "2025-03-31",
+    "sleep_duration": 6.83,
+    "heart_rate_avg": 69,
+    "steps": 11669
+  },
+  {
+    "date": "2025-04-01",
+    "sleep_duration": 6.63,
+    "heart_rate_avg": 70,
+    "steps": 10762
+  },
+  {
+    "date": "2025-04-02",
+    "sleep_duration": 8.69,
+    "heart_rate_avg": 72,
+    "steps": 5652
+  },
+  {
+    "date": "2025-04-03",
+    "sleep_duration": 5.98,
+    "heart_rate_avg": 66,
+    "steps": 5352
+  },
+  {
+    "date": "2025-04-04",
+    "sleep_duration": 6.36,
+    "heart_rate_avg": 66,
+    "steps": 8993
+  },
+  {
+    "date": "2025-04-05",
+    "sleep_duration": 5.85,
+    "heart_rate_avg": 68,
+    "steps": 9396
+  },
+  {
+    "date": "2025-04-06",
+    "sleep_duration": 8.98,
+    "heart_rate_avg": 71,
+    "steps": 9797
+  },
+  {
+    "date": "2025-04-07",
+    "sleep_duration": 8.46,
+    "heart_rate_avg": 70,
+    "steps": 10054
+  },
+  {
+    "date": "2025-04-08",
+    "sleep_duration": 5.53,
+    "heart_rate_avg": 74,
+    "steps": 5945
+  },
+  {
+    "date": "2025-04-09",
+    "sleep_duration": 7.25,
+    "heart_rate_avg": 58,
+    "steps": 7815
+  },
+  {
+    "date": "2025-04-10",
+    "sleep_duration": 7.06,
+    "heart_rate_avg": 73,
+    "steps": 7573
+  },
+  {
+    "date": "2025-04-11",
+    "sleep_duration": 6.95,
+    "heart_rate_avg": 66,
+    "steps": 7504
+  },
+  {
+    "date": "2025-04-12",
+    "sleep_duration": 6.56,
+    "heart_rate_avg": 64,
+    "steps": 6451
+  },
+  {
+    "date": "2025-04-13",
+    "sleep_duration": 5.7,
+    "heart_rate_avg": 72,
+    "steps": 10559
+  },
+  {
+    "date": "2025-04-14",
+    "sleep_duration": 8.39,
+    "heart_rate_avg": 66,
+    "steps": 9589
+  },
+  {
+    "date": "2025-04-15",
+    "sleep_duration": 5.59,
+    "heart_rate_avg": 69,
+    "steps": 10023
+  },
+  {
+    "date": "2025-04-16",
+    "sleep_duration": 6.82,
+    "heart_rate_avg": 62,
+    "steps": 5505
+  },
+  {
+    "date": "2025-04-17",
+    "sleep_duration": 7.79,
+    "heart_rate_avg": 59,
+    "steps": 6947
+  },
+  {
+    "date": "2025-04-18",
+    "sleep_duration": 6.03,
+    "heart_rate_avg": 67,
+    "steps": 11331
+  },
+  {
+    "date": "2025-04-19",
+    "sleep_duration": 7.22,
+    "heart_rate_avg": 64,
+    "steps": 6730
+  }
 ]
- 
