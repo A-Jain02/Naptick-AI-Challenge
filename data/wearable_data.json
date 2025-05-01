@@ -298,5 +298,9 @@
     "sleep_duration": "7.5 hours",
     "heart_rate_avg": "60 bpm",
     "steps": "10515 steps"
+  },
+  {
+    "date": "2025-05-01",
+    "steps": "3713 steps"
   }
 ]
