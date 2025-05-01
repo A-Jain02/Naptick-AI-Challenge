@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SleepBot AI</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+   <!-- Celestial Icons --> 
+    <div id="sky-icons"> 
+      <!-- Moon --> 
+      <img id="moon" src="{{ url_for('static', filename='img/moon.svg') }}" alt="Moon icon" width="60" height="60" 
+     style="position:fixed;top:40px;right:40px;z-index:1;">
+       <!-- Sun --> 
+       <img id="sun" src="{{ url_for('static', filename='img/sun.svg') }}"
+       alt="Sun icon" width="60" height="60"
+       style="position:fixed;top:40px;right:40px;z-index:1; display:none;"> </div>
+    <canvas id="stars"></canvas>
+
+    <header>
+        <div class="logo">🌙 SleepBot</div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Understand Your Sleep Better</h1>
+            <p>Your AI assistant to analyze mood, stress, and improve sleep routines.</p>
+            <a href="#chat" class="cta-button">Start Sleeping Smarter →</a>
+        </section>
+
+        <section id="chat" class="chat-section">
+            <form method="POST">
+                <input type="text" name="query" placeholder="Ask a question about your sleep...">
+                <input type="text" name="note" placeholder="Tell me something about your day...">
+                <input type="submit" value="Submit">
+            </form>
+
+            {% if answer %}
+                <div class="response">
+                    <h2>🧠 Answer</h2>
+                    <p>{{ answer }}</p>
+                </div>
+
+                <div class="context">
+                    <h3>📄 Retrieved Context</h3>
+                    <ul>
+                        {% for doc in context %}
+                        <li>{{ doc }}</li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            {% endif %}
+        </section>
+    </main>
+
+    <script src="/static/js/stars.js"></script>
+</body>
+</html>

@@ -1,5 +1,4 @@
 import os
-os.environ["STREAMLIT_WATCHER_TYPE"] = "none"
 from typing import List
 from data_loader import load_all_collections
 from memory_manager import get_memory_documents
@@ -99,8 +98,3 @@ if __name__ == "__main__":
     docs = rag.prepare_documents()
     rag.build_vector_store(docs)
 
-   #  sample_query = "What factors increased my stress last week?"
-   #  results = rag.query(sample_query)
-
-   #  for i, doc in enumerate(results, 1):
-   #      print(f"\n--- Result {i} ---\n{doc.page_content}")

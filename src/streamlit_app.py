@@ -1,3 +1,5 @@
+import os
+os.environ["STREAMLIT_WATCHER_TYPE"] = "none"
 import streamlit as st
 from rag_pipeline import RAGPipeline
 from memory_manager import save_memory_entry
@@ -68,6 +70,6 @@ if query:
             st.markdown("### 🧠 Answer")
             st.success(answer)
 
-            with st.expander("📄 Retrieved Context"):
+            with st.expander(" Retrieved Context"):
                 for i, doc in enumerate(results):
                     st.markdown(f"**[{i+1}]** {doc.page_content}")
