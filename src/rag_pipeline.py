@@ -1,10 +1,12 @@
 import os
+os.environ["STREAMLIT_WATCHER_TYPE"] = "none"
 from typing import List
 from data_loader import load_all_collections
+from memory_manager import get_memory_documents
 
 from langchain.docstore.document import Document
 from langchain.text_splitter import RecursiveCharacterTextSplitter
-from langchain_community.vectorstores import Chroma
+from langchain_chroma import Chroma
 from langchain_huggingface import HuggingFaceEmbeddings
 
 
@@ -29,6 +31,7 @@ class RAGPipeline:
     def prepare_documents(self) -> List[Document]:
         """
         Load and flatten structured JSON data into Document objects.
+        Includes persistent user memory.
         """
         data = load_all_collections()
         included_keys = ["wearable_data", "wellness_notes", "mental_stress_tracker"]
@@ -36,6 +39,7 @@ class RAGPipeline:
         seen_texts = set()
         documents = []
 
+        # RAG chunks from data
         for key in included_keys:
             entries = data.get(key, [])
             for entry in entries:
@@ -48,7 +52,11 @@ class RAGPipeline:
                 for chunk in chunks:
                     documents.append(Document(page_content=chunk, metadata={"source": key}))
 
-        print(f"✅ Prepared {len(documents)} unique text chunks.")
+        # Add memory documents directly (already chunked)
+        memory_docs = get_memory_documents()
+        documents.extend(memory_docs)
+
+        print(f"✅ Prepared {len(documents)} total chunks (including memory).")
         return documents
 
     def build_vector_store(self, documents: List[Document]):
@@ -75,7 +83,7 @@ class RAGPipeline:
             embedding_function=self.embeddings
         )
 
-    def query(self, query: str, top_k: int = 3) -> List[Document]:
+    def query(self, query: str, top_k: int = 7) -> List[Document]:
         """
         Return top-k relevant documents using vector similarity search.
         """
@@ -91,8 +99,8 @@ if __name__ == "__main__":
     docs = rag.prepare_documents()
     rag.build_vector_store(docs)
 
-    sample_query = "What factors increased my stress last week?"
-    results = rag.query(sample_query)
+   #  sample_query = "What factors increased my stress last week?"
+   #  results = rag.query(sample_query)
 
-    for i, doc in enumerate(results, 1):
-        print(f"\n--- Result {i} ---\n{doc.page_content}")
+   #  for i, doc in enumerate(results, 1):
+   #      print(f"\n--- Result {i} ---\n{doc.page_content}")

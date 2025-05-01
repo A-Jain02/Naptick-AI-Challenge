@@ -27,13 +27,15 @@ def call_ollama(prompt, model="mistral"):
 # Prompt builder
 def format_prompt(chunks, query):
     context = "\n".join([f"- {doc.page_content}" for doc in chunks])
-    return f"""You are a sleep assistant. Only answer using the information below.
+    return f"""You are a sleep-focused assistant that must answer strictly based on the provided context.
 
 Context:
 {context}
 
+Only answer the question if it can be answered using this context. If not, respond with exactly: "Sorry, I can’t help with that."
+
 Question: {query}
-Answer: If the context is not relevant or insufficient, say: 'Sorry, I don’t have enough information to answer that.'"""
+Answer:"""
 
 # CLI loop
 print("\n🤖 SleepBot (Ollama-Mistral) is ready! Type your question (or 'exit'):\n")
@@ -43,7 +45,7 @@ while True:
         print("👋 Goodbye!")
         break
 
-    retrieved_docs = rag.query(query, top_k=3)
+    retrieved_docs = rag.query(query, top_k=7)
     if not retrieved_docs:
         print("\n🧠 Sorry, I couldn’t find anything relevant to that question.\n")
         continue
