@@ -1,1 +1,10 @@
-
+streamlit>=1.32.0
+langchain>=0.2.0
+langchain-huggingface>=0.0.1
+langchain-chroma>=0.0.5
+chromadb>=0.4.24
+sentence-transformers>=2.5.1
+transformers>=4.40.0
+torch>=2.0.1
+requests>=2.31.0
+python-dotenv>=1.0.1
