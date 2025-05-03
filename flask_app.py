@@ -1,7 +1,7 @@
 from flask import Flask, render_template, request
-from rag_pipeline import RAGPipeline
+from src.rag_pipeline import RAGPipeline
 from google_fit_utils import fetch_steps_on_date
-from app import format_prompt, call_ollama  # adjust this import as needed
+from src.app import format_prompt, call_ollama  # adjust this import as needed
 import re
 
 app = Flask(__name__)
